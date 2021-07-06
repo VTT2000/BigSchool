@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BigSchool.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace BigSchool.Controllers
 {
@@ -10,7 +13,14 @@ namespace BigSchool.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            BigSchoolContext context = new BigSchoolContext();
+            var upcommingCourse = context.Courses.Where(p => p.Datetime > DateTime.Now).OrderBy(p => p.Datetime).ToList();
+            foreach(Course i in upcommingCourse)
+            {
+                ApplicationUser user = System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>().FindById(i.LectureId);
+                i.Name = user.Name;
+            }
+            return View(upcommingCourse);
         }
 
         public ActionResult About()
