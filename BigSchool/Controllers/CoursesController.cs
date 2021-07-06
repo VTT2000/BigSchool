@@ -29,7 +29,7 @@ namespace BigSchool.Controllers
             BigSchoolContext context = new BigSchoolContext();
 
             ModelState.Remove("LectureId");
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 objcourse.ListCategory = context.Categories.ToList();
                 return View("Create", objcourse);
