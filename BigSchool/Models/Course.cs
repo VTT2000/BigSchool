@@ -19,6 +19,7 @@ namespace BigSchool.Models
         [StringLength(255)]
         public string Place { get; set; }
 
+        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime Datetime { get; set; }
 
         public int CategoryId { get; set; }
