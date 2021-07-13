@@ -83,3 +83,9 @@ C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\obj\Debug\
 C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CopyComplete
 C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\obj\Debug\BigSchool.dll
 C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Web.Http.dll
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Web.Http.xml
+C:\Users\DELL\Downloads\ThucHanhLapTrinhWeb\Lab04\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
